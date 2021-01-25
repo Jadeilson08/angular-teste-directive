@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.ng-invalid {
+  border-color: #f00;
+}
+.ng-invalid + .invalid-message {
+  color: #f00;
+  font-size: 12px;
+  display: inline;
+}
+.invalid-message {
+  display: none;
+}

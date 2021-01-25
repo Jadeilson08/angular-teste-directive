@@ -1,0 +1,6 @@
+<form [formGroup]="myForm">
+	<input type="text" OnlyNumber placeholder="Enter postal code" formControlName="postalCode"
+  [class.ng-invalid]="myForm.get('postalCode').invalid
+                        && (myForm.get('postalCode').dirty || myForm.get('postalCode').touched)"/>
+	<p>{{myForm.get('postalCode').value}}</p>
+</form>
